@@ -1,0 +1,16 @@
+<table border="1">
+  <thead>
+      <tr>
+          <th scope="col">temperatureC</th>
+          <th scope="col">temperatureF</th>
+          <th scope="col">summary</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr *ngFor="let item of weatherList">
+          <th scope="row">{{item.temperatureC}}</th>
+          <td>{{item.temperatureF}}</td>
+          <td>{{item.summary}}</td>
+      </tr>
+  </tbody>
+</table>

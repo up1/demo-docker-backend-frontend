@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  web:
+    build: ./web
+    ports:
+      - "8001:80"
+  api:
+    build: ./api
