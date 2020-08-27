@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  www:
+    build:
+      context: .
+      dockerfile: Dockerfile-v3
+    ports:
+      - "8001:80"
+    volumes:
+      - ./v3:/var/www/html/demo

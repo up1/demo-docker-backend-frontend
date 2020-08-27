@@ -7,4 +7,5 @@ CREATE TABLE `Person` (
 INSERT INTO `Person` (`id`, `name`) VALUES
 (1, 'User 01'),
 (2, 'User 02'),
-(3, 'User 03');
+(3, 'User 03'),
+(4, 'User 04');
